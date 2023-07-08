@@ -1,0 +1,28 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #002047;
+}
+
+p, h2 {
+    margin: 0px;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: Roboto;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__content {
+        background: white;
+        width: 60%;
+        max-height: 80vh;
+        border-radius: 20px;
+        padding: 20px;
+    }
+}
